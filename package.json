@@ -1,0 +1,33 @@
+{
+  "name": "nagios-sqs",
+  "version": "1.0.1",
+  "description": "Simple node binary for nagios to check health of sqs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "nagios-sqs": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heyharvs/nagios-sqs.git"
+  },
+  "keywords": [
+    "nagios",
+    "sqs",
+    "aws",
+    "elastic",
+    "plugin"
+  ],
+  "author": "Harvard Young <harvard.young@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heyharvs/nagios-sqs/issues"
+  },
+  "homepage": "https://github.com/heyharvs/nagios-sqs#readme",
+  "dependencies": {
+    "aws-sdk": "^2.6.4",
+    "bluebird": "^3.4.6"
+  }
+}
